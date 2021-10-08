@@ -15,7 +15,7 @@ const config = {
         paths: {
             base: '/msengbusch.github.io',
             assets: '/msengbusch.github.io'
-        },
+        }
 	}
 };
 
