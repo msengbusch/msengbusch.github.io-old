@@ -8,10 +8,13 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		// hydrate the <div id="svelte"> element in src/app.html
-		//target: '#svelte',
+		target: '#svelte',
 
         adapter: static_adapter()
+
+        paths: {
+            base: '/msengbusch.github.io'
+        }
 	}
 };
 
