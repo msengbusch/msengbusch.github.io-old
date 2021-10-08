@@ -8,8 +8,8 @@ const config = {
 	preprocess: preprocess(),
 
 	paths: {
-        base: '/svelte-kit-blog-demo',
-        assets: '/svelte-kit-blog-demo'
+        base: '/msengbusch.github.io',
+        assets: '/msengbusch.github.io'
     },
 
 	kit: {
