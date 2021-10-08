@@ -7,10 +7,9 @@ const config = {
 	// for more information about preprocessors
 	preprocess: preprocess(),
 
-	appDir: 'internal',
-
 	kit: {
 		target: '#svelte',
+        appDir: 'internal',
 
         adapter: static_adapter(),
 
