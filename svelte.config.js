@@ -7,14 +7,15 @@ const config = {
 	// for more information about preprocessors
 	preprocess: preprocess(),
 
+	paths: {
+        base: '/svelte-kit-blog-demo',
+        assets: '/svelte-kit-blog-demo'
+    },
+
 	kit: {
 		target: '#svelte',
 
         adapter: static_adapter()
-
-        paths: {
-            base: '/msengbusch.github.io'
-        }
 	}
 };
 
