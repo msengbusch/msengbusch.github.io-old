@@ -13,7 +13,7 @@ const config = {
         adapter: static_adapter(),
 
         paths: {
-            base: '/msengbusch.github.io'
+            //base: '/msengbusch.github.io'
         }
 	}
 };
